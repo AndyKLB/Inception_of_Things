@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: ankammer-playground
-        image: ankammer/playground:v2
+        image: ankammer/playground:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
